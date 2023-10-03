@@ -1,3 +1,50 @@
-header{
-    background-color: #66d666;
+.header{
+    padding-top: 20px;
+    padding-left: 50px;
+    color: #ffffff;
+    background-color: #66D48B;
+    width: auto;
+    height: 60px;
+    .title{
+        font-size: 30px;
+    }
+    .threadbutton{
+        font-size: 20px;
+        padding-left: 85%;
+    }
+}
+/*ホーム画面*/
+.home{
+    margin-left: 40%;
+    /*ホーム画面のスレッド一覧*/
+    ul{
+        list-style: none;
+        width: 120%;
+        padding: 0;
+    }
+    li {
+        color: #333;
+        border-left: solid 1px #000;
+        border-right: solid 1px #000;
+        border-top: solid 1px #000 ;
+        border-bottom: solid 1px #000;
+        background: rgb(249, 248, 248);
+        padding: 1rem;
+        width: 35%;
+        font-size: 20px;
+    }
+}
+/*スレッド新規作成ページ*/
+.newthread{
+    margin-left: 40%;
+    /*ページ概要*/
+    .threadtitle{
+        font-size: 20px;
+        width: 300px;
+        height: 50px;
+        margin-top: 50px;
+    }
+    .backhome{
+        margin-top: 50px;
+    }
 }
